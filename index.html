@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app ">
+      <main class="overflow-x-hidden">
+        <!-- modal start -->
+        <div
+          id="modal"
+          class="modal hidden w-full h-screen bg-white/80 fixed z-20 justify-center items-center"
+        >
+          <div
+            class="modal-card bg-modal bg-cover bg-no-repeat container mx-auto w-[90vw] h-[60vh] flex flex-col justify-start items-center gap-4 text-white"
+          >
+            <img
+              id="modal-close"
+              class="w-[30px] absolute z-30 right-12 pt-5 cursor-pointer xl:right-20"
+              src="./public/img/close.png"
+              alt="close button"
+            />
+            <h2 class="text-4xl pt-[8rem]">Want 60% off your first class?</h2>
+            <p>subcribe to our mailing list for first time discount</p>
+            <input
+              id="email"
+              class="mx-auto w-[50ch] h-[3rem] rounded-full border border-solid border-black"
+              placeholder="  Email"
+              type="text"
+            />
+            <button
+              id="submit-email"
+              class="border p-5 px-16 mt-2 bg-black text-white font-semibold rounded-full"
+            >
+              Get My Offer
+            </button>
+          </div>
+        </div>
+        <!-- modal end -->
+
+        <!-- hero start -->
+        <nav
+          id="nav"
+          class="nav-bar container mx-auto px-4 bg-transparent fixed top-0 text-white justify-between items-center"
+        >
+          <div
+            class="logo-wrapper text-3xl fixed top-2 lg:text-5xl lg:font-black"
+          >
+            Fit and Lit
+          </div>
+          <div class="nav-menu-wrapper">
+            <img
+              class="w-[2.5rem] xl:hidden ml-auto"
+              src="./public/img/burger.png"
+              alt=""
+            />
+            <div
+              class="nav-links ml-auto hidden justify-evenly items-center pt-[1rem] pr-4 text-xl gap-4 fixed top-0 right-0 xl:flex xl:text-3xl"
+            >
+              <a href="#" class="nav-link">Home</a>
+              <a href="#" class="nav-link">About</a>
+              <a href="#" class="nav-link">Locations</a>
+              <a href="#" class="nav-link">Join Now</a>
+            </div>
+          </div>
+        </nav>
+        <section
+          class="hero mx-0 w-full h-[50vh] bg-hero bg-cover bg-center text-white text-[3rem] flex justify-center items-center p-3 lg:h-[65vh] xl:h-[100vh]"
+        >
+          <h1
+            class="w-[25ch] xl:text-6xl xl:font-black xl:w-[20ch] xl:leading-[75px] xl:tracking-widest"
+          >
+            Get Results you can see and feel
+          </h1>
+        </section>
+        <!-- hero end -->
+        <!--about start  -->
+        <section class="about container mx-auto flex justify-around mt-[8rem]">
+          <img
+            class="w-[300px] h-[350px] xl:w-[600px] xl:h-[400px]"
+            src="https://images.unsplash.com/photo-1588286840104-8957b019727f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BpbiUyMGNsYXNzfGVufDB8fDB8fHww"
+            alt="group yoga class womens fitness"
+          />
+          <div class="about-textbox">
+            <h2 class="text-center text-2xl font-bold pt-4 xl:text-4xl">
+              What We do
+            </h2>
+            <p
+              class="w-[30ch] pt-[1.5rem] text-[16px] leading-7 xl:w-[35ch] xl:text-2xl"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+            </p>
+          </div>
+        </section>
+        <!-- about end  -->
+        <!-- coaches start -->
+        <section class="container mx-auto mt-[8rem]">
+          <div class="coach">
+            <h2
+              class="font-black text-[30px] text-center pb-3 xl:text-6xl xl:pb-[4rem]"
+            >
+              Meet your Coaches
+            </h2>
+            <div
+              class="coach-box container mx-auto xl:flex xl:justify-between xl:p-7"
+            >
+              <img
+                class="w-[400px] h-[400px] mx-auto xl:w-[650px] xl:h-[500px] xl:m-0"
+                src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29uYWwlMjB0cmFpbmVyfGVufDB8fDB8fHww"
+                alt="personal trainer coach ronny meals"
+              />
+              <div
+                class="bio container text-center xl:flex-col xl:w-[60ch] xl:justify-baseline xl:text-left"
+              >
+                <h2
+                  class="mx-auto text-center pt-[1rem] text-[15px] xl:text-left xl:text-2xl xl:font-light"
+                >
+                  Coach Ronny Meals
+                  <h3
+                    class="mx-auto text-center pt-[.3rem] text-[25px] font-bold text-orange-400 xl:text-left xl:text-[3rem] xl:w-[25ch] xl:leading-11"
+                  >
+                    Stregnth and Conditoning
+                  </h3>
+                  <p
+                    class="w-[50ch] mx-auto pt-[1.2rem] xl:m-0 xl:text-xl xl:font-medium"
+                  >
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been
+                  </p>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div
+            class="coach-box container mx-auto xl:flex xl:justify-between xl:flex-row-reverse bg-[#f9f9f9] xl:p-7"
+          >
+            <img
+              class="w-[400px] h-[400px] mx-auto xl:w-[650px] xl:h-[500px] xl:m-0"
+              src="https://images.unsplash.com/photo-1518459031867-a89b944bffe4"
+              alt="personal trainer coach ronny meals"
+            />
+            <div
+              class="bio container text-center xl:flex-col xl:w-[60ch] xl:justify-baseline xl:text-left"
+            >
+              <h2
+                class="mx-auto text-center pt-[1rem] text-[15px] xl:text-left xl:text-2xl xl:font-light"
+              >
+                Coach Sandra Filipe
+                <h3
+                  class="mx-auto text-center pt-[.3rem] text-[25px] font-bold text-orange-400 xl:text-left xl:text-[3rem] xl:w-[25ch] xl:leading-11"
+                >
+                  Yoga and Palades
+                </h3>
+                <p
+                  class="w-[50ch] mx-auto pt-[1.2rem] xl:m-0 xl:text-xl xl:font-medium"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been
+                </p>
+              </h2>
+            </div>
+          </div>
+          <div
+            class="coach-box container mx-auto xl:flex xl:justify-between xl:p-7"
+          >
+            <img
+              class="w-[400px] h-[400px] mx-auto xl:w-[650px] xl:h-[500px] xl:m-0"
+              src="https://images.unsplash.com/photo-1590070714379-e894212d7838"
+              alt="personal trainer coach ronny meals"
+            />
+            <div
+              class="bio container text-center xl:flex-col xl:w-[60ch] xl:justify-baseline xl:text-left"
+            >
+              <h2
+                class="mx-auto text-center pt-[1rem] text-[15px] xl:text-left xl:text-2xl xl:font-light"
+              >
+                Coach Anthony "Smokin' Tony" Matthews
+                <h3
+                  class="mx-auto text-center pt-[.3rem] text-[25px] font-bold text-orange-400 xl:text-left xl:text-[3rem] xl:w-[25ch] xl:leading-11"
+                >
+                  Boxing HITT
+                </h3>
+                <p
+                  class="w-[50ch] mx-auto pt-[1.2rem] xl:m-0 xl:text-xl xl:font-medium"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been
+                </p>
+              </h2>
+            </div>
+          </div>
+        </section>
+        <!-- coaches end -->
+        <!-- testimonials start -->
+        <section class="mx-auto bg-black p-8">
+          <div class="testi-wrapper container mx-auto">
+            <div
+              class="testbox bg-white w-[450px] mx-auto px-[5rem] py-[3rem] xl:w-[75vw] xl:h-[50vh] flex flex-col justify-center xl:pt-[6rem]"
+            >
+              <div class="test-text text-left xl:text-2xl xl:font-light">
+                <p class="testi">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and
+                </p>
+                <p class="testi hidden">
+                  t was popularised in the 1960s with the release of Letraset
+                  sheets containing Lorem Ipsum passages, and more recently with
+                  desktop publishing software like Aldus PageMaker including
+                  versions of Lorem Ipsum.
+                </p>
+                <p class="testi hidden">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure
+                </p>
+                <div
+                  class="slide-box flex justify-evenly items-center pt-[5rem] xl:justify-center xl:gap-[3rem]"
+                >
+                  <img
+                    id="left"
+                    class="w-[40px] xl:w-[60px]"
+                    src="./public/img/leftarrow.png"
+                    alt="left arrow"
+                  />
+                  <div
+                    class="elipise xl:w-[30px] xl:h-[30px] rounded-full h-[20px] w-[20px] bg-white border-[3px] border-orange-400"
+                  ></div>
+                  <div
+                    class="elipise xl:w-[30px] xl:h-[30px] rounded-full h-[20px] w-[20px] bg-orange-400"
+                  ></div>
+                  <div
+                    class="elipise xl:w-[30px] xl:h-[30px] rounded-full h-[20px] w-[20px] bg-orange-400"
+                  ></div>
+                  <img
+                    id="right"
+                    class="w-[40px] xl:w-[60px]"
+                    src="./public/img/rightarrow.png"
+                  />
+                </div>
+              </div>
+
+              >
+            </div>
+          </div>
+        </section>
+        <!-- testimonials end -->
+        <!-- footer start -->
+        <section class="footer bg-[#F2F2F2]">
+          <div
+            class="footer-wrapper mx-auto container flex flex-col justify-center"
+          >
+            <h2 class="text-center text-xl font-semibold p-3">follow us on</h2>
+            <div class="socials flex flex-row justify-center gap-8 pb-10">
+              <img
+                src="./public/img/facebook.png"
+                alt="facebook"
+                class="socialicon cursor-pointer"
+              />
+              <img
+                src="./public/img/instagram.png"
+                alt="instagram"
+                class="socialicon cursor-pointer"
+              />
+              <img
+                src="./public/img/twitter.png"
+                alt="twitter x"
+                class="socialicon cursor-pointer"
+              />
+            </div>
+            <div class="download flex justify-center">
+              <img
+                class="w-[300px] cursor-pointer"
+                src="https://logowik.com/content/uploads/images/486_google_play_badge.jpg"
+                alt="google play store"
+              />
+              <img
+                class="w-[300px] cursor-pointer"
+                src="https://logowik.com/content/uploads/images/download-on-the-app-store7173.jpg"
+                alt="apple app store"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- footer end -->
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
